@@ -1,4 +1,4 @@
-<div style="font-size: 60px; font-weight: bold;">My Project Plan</div>
+# Proposal
 
 **_Note_**: This document is written merely as an illustrative example and does not provide any working guide to an actual project.
 
