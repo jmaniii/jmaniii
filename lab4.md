@@ -30,54 +30,19 @@ Interface allowing users to communicate with the kernel (e.g., bash, zsh).
 
 ---
 
-# Basic Commands
+# Command Line Interface (CLI)
 
-## Common Shell Commands
-- `pwd`: Print working directory
-- `cd`: Change directory
-- `ls`: List directory contents  
-  (more on `ls`, including long format)
-
-## File Manipulation
-- `cp`: Copy files  
-  Example: `cp source.txt destination.txt`
-  
-- `mv`: Move files  
-  Example: `mv oldname.txt newname.txt`
-  
-- `rm`: Remove files  
-  Example: `rm unwantedfile.txt`
-  
-- `mkdir`: Create directories  
-  Example: `mkdir new_directory`
-  
-- **Wildcards**: Used for pattern matching in commands  
-  Example: `ls *.txt` (lists all `.txt` files in the directory)
+- **Definition**: A text-based interface that allows users to enter commands to interact with the computer's operating system.
+- **Efficiency**: Complex tasks can be quickly processed with just a few commands. Repetitive tasks can be automated, and it requires fewer resources since it's text-based.
 
 ---
 
-# Example Commands
-```bash
-# Print the current working directory
-pwd
+# Basic Commands
 
-# Change to the home directory
-cd ~
+## Common Shell Commands
 
-# List all files and directories in long format
-ls -l
-
-# Copy a file
-cp example.txt backup_example.txt
-
-# Move a file
-mv old_file.txt new_file.txt
-
-# Remove a file
-rm temporary_file.txt
-
-# Create a new directory
-mkdir project_folder
-
-# List all .txt files in the current directory
-ls *.txt
+### `pwd`
+- **Description**: Shows the current path you are working on.
+- **Usage**: 
+  ```bash
+  pwd
