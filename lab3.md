@@ -1,4 +1,4 @@
-<div style="font-size: 32px; font-weight: bold;">My Project Plan</div>
+<div style="font-size: 60px; font-weight: bold;">My Project Plan</div>
 
 **_Note_**: This document is written merely as an illustrative example and does not provide any working guide to an actual project.
 
