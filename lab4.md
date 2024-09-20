@@ -1,48 +1,77 @@
-# Overview of Linux
+# Lab4_202133569_이정민
 
-## Definition
-Open-source Unix-like operating systems first released by Linus Torvalds in 1991.
 
-## Popular Distributions
-Includes Debian, Fedora, Ubuntu, etc.
+## Linux
 
-## Market Share
-Dominates server market (over 96.4% of top 1 million web servers) and used in embedded systems (like Android).
+- **Definition**: An open-source operating system similar to Unix.
+- **Usage**: Commonly used for servers; over 96.4% of the top 1 million web servers run on Linux.
+- **Distributions**: Popular versions include Debian, Fedora, and Ubuntu.
+- **Characteristics**: Known for security, stability, and support for open-source software development.
+- **Interface**: Primarily operates via CLI, but many distributions also support GUIs.
 
-## Open Source Development
-Most widely-used platform for open-source software development.
+## Kernel and Shell
 
-## Security and Stability
-Known for its secure and stable environment.
+- **Kernel**: Core of the operating system managing hardware resources.
+- **Shell**: Interface for users to communicate with the kernel (e.g., bash, zsh).
 
-## User Interface
-Primarily runs on Command Line Interface (CLI), but many distributions support Graphical User Interfaces (GUIs).
+## CLI vs GUI
 
----
+| Feature             | CLI                                  | GUI                                   |
+|---------------------|--------------------------------------|---------------------------------------|
+| Operation           | Requires command memorization        | Intuitive, mouse-operated             |
+| Speed               | Faster for experienced users         | Slower compared to CLI                |
+| Automation          | Supports scripts for automation      | Manual steps required for repetitive tasks |
+| User Base           | Developers and advanced users        | Daily users                           |
 
-# Key Components
+## Running a Shell Terminal
 
-## Kernel
-Core of the operating system that controls and communicates with hardware resources.
+- **Linux/macOS**: Search for "Terminal" in applications.
+- **Windows**: Install "Git Bash" for shell terminal access.
 
-## Shell
-Interface allowing users to communicate with the kernel (e.g., bash, zsh).
+## Basic Shell Commands
 
----
+| Command          | Description                                           |
+|------------------|-------------------------------------------------------|
+| `pwd`            | Displays the current working directory                 |
+| `cd`             | Changes the current directory                           |
+| `ls`             | Lists files and directories in the current directory   |
+| `ls /bin`       | Lists files in the `/bin` directory                    |
+| `ls -l`         | Long format listing of files (permissions, owner, etc.) |
+| `clear`         | Clears the terminal screen                              |
+| `help`          | Displays a list of built-in commands                   |
 
-# Command Line Interface (CLI)
+## Path Types
 
-- **Definition**: A text-based interface that allows users to enter commands to interact with the computer's operating system.
-- **Efficiency**: Complex tasks can be quickly processed with just a few commands. Repetitive tasks can be automated, and it requires fewer resources since it's text-based.
+- `/[directory]`: Absolute path
+- `./[directory]`: Relative path (current directory)
+- `../[directory]`: Relative path (parent directory)
+- `~`: Home directory of the current user
 
----
+## File Manipulation Commands
 
-# Basic Commands
+| Command                   | Description                                  |
+|---------------------------|----------------------------------------------|
+| `cp file1 file2`         | Copies contents of `file1` into `file2`    |
+| `cp -R dir1 dir2`        | Recursively copies contents of `dir1` to `dir2` |
+| `mv file1 file2`         | Renames `file1` to `file2`                  |
+| `rm file`                 | Permanently deletes `file`                   |
+| `mkdir directory_name`    | Creates a new directory                      |
 
-## Common Shell Commands
+## Wildcards
 
-### `pwd`
-- **Description**: Shows the current path you are working on.
-- **Usage**: 
-  ```bash
-  pwd
+- `*`: Matches all files
+- `g*`: Matches files starting with "g"
+- `b*.txt`: Matches files starting with "b" and ending with ".txt"
+- `Data???`: Matches files starting with "Data" followed by exactly 3 characters
+
+## Caution
+
+- **Deletion Warning**: Use caution with `rm`, as files deleted this way cannot be recovered. It's advisable to test commands with `ls` first to see which files would be affected.
+
+## Help and Exiting
+
+| Command             | Description                                     |
+|---------------------|-------------------------------------------------|
+| `help`              | Displays built-in commands                      |
+| `man [command]`     | Displays the manual for the specified command    |
+| `exit`              | Closes the terminal session                      |
