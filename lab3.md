@@ -1,6 +1,6 @@
 # My Project Plan
 
-* *Note* *: This document is written merely as an illustrative example and does not provide any working guide to an actual project.
+*Note* : This document is written merely as an illustrative example and does not provide any working guide to an actual project.
 
 ### Proposal
 
@@ -22,7 +22,7 @@ For example, the objects in the following image were detected using mmdetection:
 
 ### Installation
 
-In a bash terminal, run the following commands (Do NOT actually run these commands on your computer):
+In a bash terminal, run the following commands (*Do NOT actually run these commands on your computer*):
 
 ```bash
 $ sudo apt update
