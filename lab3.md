@@ -1,23 +1,23 @@
-# My Project Plan
+<div style="font-size: 32px; font-weight: bold;">My Project Plan</div>
+
 **_Note_**: This document is written merely as an illustrative example and does not provide any working guide to an actual project.
 
 ### Proposal
 ---
+I am planning to develop a computer vision software that detects objects in images. To build this application, I will utilize OpenCV, deep learning libraries such as [TensorFlow](https://www.tensorflow.org/) or [PyTorch](https://pytorch.org/), and other open-source software.
 
-I am planning to make a computer vision software that detects objects in images. In order to build it, I will use opencv, deep learning libraries, such as [TensorFlow](https://www.tensorflow.org/) or [PyTorch](https://pytorch.org/), and other open-source software.
-
-For example, the objects in the following image were detected using [mmdetection](https://github.com/open-mmlab/mmdetection):
+For instance, the objects in the image below were detected using [MMDetection](https://github.com/open-mmlab/mmdetection):
 
 ![Detected Objects](https://user-images.githubusercontent.com/12907710/137271636-56ba1cd2-b110-4812-8221-b4c120320aa9.png)
 
 ---
 ### Dependencies
 
-- **python**
-- **opencv-python**
-- **tensorflow**
-- **openmmlab**
-- **package manager**
+- **Python**
+- **OpenCV**
+- **TensorFlow**
+- **MMDetection**
+- **Package Manager (e.g., conda)**
 
 ### Installation
 
@@ -25,7 +25,7 @@ In a bash terminal, run the following commands (**_Do NOT actually run these com
 
 ```bash
 $ sudo apt update
-$ conda create -n cv_detection
+$ conda create -n cv_detection python=3.8
 $ conda activate cv_detection
 $ python --version
 $ python example.py
