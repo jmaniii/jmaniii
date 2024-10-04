@@ -1,4 +1,6 @@
-# Linux Command Line Basics
+# Lab5_202133569_이정민
+
+## Linux Command Line Basics
 
 ## 1. I/O Redirection
 - **Standard Output**: Output is usually displayed on the screen but can be redirected to a file using `>` (overwrite) or `>>` (append).
