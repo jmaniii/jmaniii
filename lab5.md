@@ -36,6 +36,22 @@
 - The `history` command lists previously executed commands. You can also save the history to a file (e.g., `history > history.txt`).
 
 ## 10. Common Commands
-- **wget**: Downloads files from the internet. For example:  
-  ```bash
-  wget http://example.com/file.txt
+- **wget**: Downloads files from the internet.
+- **curl**: Transfers data using URLs. 
+- **grep**: Searches for text patterns within files.
+
+## 11. Shell Scripting Tips
+-**Variables**: Assign values using variable=value (no spaces). Access variables with $variable.
+-**Conditionals**: Use if statements to perform conditional execution.
+```bash
+if [ -f "file.txt" ]; then
+  echo "File exists."
+		else
+  echo "File does not exist."
+		fi
+-**Loops**: Use for, while, or until loops to repeat tasks.
+```bash
+for i in {1..5}; do
+    echo "Iteration $i"
+done
+
