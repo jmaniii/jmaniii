@@ -49,9 +49,11 @@ if [ -f "file.txt" ]; then
 		else
   echo "File does not exist."
 		fi
+```
 -**Loops**: Use for, while, or until loops to repeat tasks.
 ```bash
 for i in {1..5}; do
     echo "Iteration $i"
 done
+```
 
