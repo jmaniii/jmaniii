@@ -49,6 +49,7 @@ Git configurations can be set at three levels:
 ```
 
 - **Unstage a File**:
+
   ```
   $ git rm --cached [file_name]
 ```
