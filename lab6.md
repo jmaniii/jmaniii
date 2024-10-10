@@ -49,7 +49,7 @@ $ git add [file_name]
   ```bash
 $ git rm --cached [file_name]
 ```
--**Commit Changes
+- **Commit Changes
 ```bash
 $ git commit -m "commit message"
 ```
