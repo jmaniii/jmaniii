@@ -34,29 +34,25 @@ Git configurations can be set at three levels:
 ## Basic Git Commands
 
 - **Initialize a Repository**:  
-  ```bash
+  ```
   $ git init
 ```
 
+- **Stage a File**:
+  ```
+  $ git add [file_name]
 ```
+
 - **Check Repository Status**:
-  ```bash
+  ```
   $ git status
 ```
 
-```
-
-- **Stage a File**:
-  ```bash
-  $ git add [file_name]
-```
-```
-
 - **Unstage a File**:
-  ```bash
+  ```
   $ git rm --cached [file_name]
 ```
-```
 - **Commit Changes**:
-  ```bash
+  ```
   $ git commit -m "commit message"
+```
